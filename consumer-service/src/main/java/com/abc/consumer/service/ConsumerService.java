@@ -1,0 +1,13 @@
+package com.abc.consumer.service;
+
+//import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ConsumerService {
+	
+//	@KafkaListener(topics = "payment-topic", groupId = "creditcard-id")
+//	public void consumeMessage(String message) {
+//		System.out.println(message);
+//	}
+}
